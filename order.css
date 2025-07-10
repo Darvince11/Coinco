@@ -1,0 +1,84 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #111;
+}
+header {
+  background: #fff;
+  padding: 20px 40px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li {
+  cursor: pointer;
+}
+.contact-btn {
+  padding: 10px 20px;
+  background: #eee;
+  border: none;
+  border-radius: 6px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 40px;
+}
+.hero-text h1 {
+  font-size: 3rem;
+}
+.access-btn {
+  margin-top: 20px;
+  padding: 12px 30px;
+  background: orange;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 1rem;
+}
+.price {
+  margin-top: 10px;
+}
+.hero-img {
+  position: relative;
+}
+.hero-img img {
+  width: 300px;
+  border-radius: 12px;
+}
+.speech {
+  position: absolute;
+  bottom: -30px;
+  left: 10px;
+  background: #fffa94;
+  padding: 10px;
+  border-radius: 6px;
+}
+.features {
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+}
+.feature {
+  background: #e9e1d5;
+  padding: 20px;
+  border-radius: 16px;
+}
+.feature-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.team {
+  max-width: 400px;
+}
